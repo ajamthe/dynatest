@@ -1,13 +1,20 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
-import Dynatrace from '../../Dynatrace';
+
+import Dynatrace from '../../Dynatrace.js';
+import dynafetch from '../../dynafetch.js';
+
 
 function onPressLearnMore() {
     const dynatrace = new Dynatrace();
-    dynatrace.enterAction("Button Pressed");
+    console.log('On Press event');
+    var action = global.dt.enterAction('Button press');
 }
 
+
 const Panel = () => {
+    global.dt = new Dynatrace();
+
     const { textLarge, textSmall, viewStyle } = styles;
     return (
         <View style={viewStyle}>

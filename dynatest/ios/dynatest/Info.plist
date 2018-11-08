@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>DTXAgentEnvironment</key>
+	<string>bf36168lga</string>
+	<key>DTXApplicationID</key>
+	<string>25a0c49a-6b23-40dc-a995-2e7bccdd16ba</string>
+	<key>DTXClusterURL</key>
+	<string>https://bf.dynatrace.com</string>
+	<key>DTXLogLevel</key>
+	<string>ALL</string>
+	<key>DTXSendEmptyAutoAction</key>
+	<string>YES</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
