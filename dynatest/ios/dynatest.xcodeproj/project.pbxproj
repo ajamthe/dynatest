@@ -36,6 +36,18 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* dynatestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* dynatestTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		75DA2EFB2193E3AA001D5CD3 /* Dynatrace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DA2ED52193E3AA001D5CD3 /* Dynatrace.framework */; };
+		75DA2EFC2193E3B7001D5CD3 /* Dynatrace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DA2ED52193E3AA001D5CD3 /* Dynatrace.framework */; };
+		75DA2EFD2193E3B7001D5CD3 /* Dynatrace.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75DA2ED52193E3AA001D5CD3 /* Dynatrace.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75DA2F002193E6FD001D5CD3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DA2EFF2193E6FD001D5CD3 /* libsqlite3.dylib */; };
+		75DA2F022193E717001D5CD3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DA2F012193E717001D5CD3 /* CoreLocation.framework */; };
+		75DA2F042193E735001D5CD3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DA2F032193E735001D5CD3 /* CoreTelephony.framework */; };
+		75DA2F062193E740001D5CD3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DA2F052193E740001D5CD3 /* Security.framework */; };
+		75DA2F082193E752001D5CD3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DA2F072193E752001D5CD3 /* SystemConfiguration.framework */; };
+		75DA2F0A2193E77A001D5CD3 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DA2F092193E77A001D5CD3 /* libz.1.dylib */; };
+		75DA2F0C2193E79C001D5CD3 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DA2F0B2193E79C001D5CD3 /* libc++.1.dylib */; };
+		75DA2F0E2193E7B1001D5CD3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DA2F0D2193E7B1001D5CD3 /* MessageUI.framework */; };
+		75DA2F102193E7BC001D5CD3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75DA2F0F2193E7BC001D5CD3 /* WebKit.framework */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 /* End PBXBuildFile section */
@@ -316,6 +328,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		75DA2EFE2193E3B7001D5CD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				75DA2EFD2193E3B7001D5CD3 /* Dynatrace.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
@@ -340,6 +366,16 @@
 		2D02E4901E0B4A5D006451C7 /* dynatest-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dynatest-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		75DA2ED52193E3AA001D5CD3 /* Dynatrace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dynatrace.framework; sourceTree = "<group>"; };
+		75DA2EFF2193E6FD001D5CD3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		75DA2F012193E717001D5CD3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		75DA2F032193E735001D5CD3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		75DA2F052193E740001D5CD3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		75DA2F072193E752001D5CD3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		75DA2F092193E77A001D5CD3 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		75DA2F0B2193E79C001D5CD3 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		75DA2F0D2193E7B1001D5CD3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		75DA2F0F2193E7BC001D5CD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
@@ -358,6 +394,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DA2F102193E7BC001D5CD3 /* WebKit.framework in Frameworks */,
+				75DA2F0E2193E7B1001D5CD3 /* MessageUI.framework in Frameworks */,
+				75DA2F0C2193E79C001D5CD3 /* libc++.1.dylib in Frameworks */,
+				75DA2F0A2193E77A001D5CD3 /* libz.1.dylib in Frameworks */,
+				75DA2F082193E752001D5CD3 /* SystemConfiguration.framework in Frameworks */,
+				75DA2F062193E740001D5CD3 /* Security.framework in Frameworks */,
+				75DA2F042193E735001D5CD3 /* CoreTelephony.framework in Frameworks */,
+				75DA2F022193E717001D5CD3 /* CoreLocation.framework in Frameworks */,
+				75DA2F002193E6FD001D5CD3 /* libsqlite3.dylib in Frameworks */,
+				75DA2EFC2193E3B7001D5CD3 /* Dynatrace.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -366,6 +412,7 @@
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
+				75DA2EFB2193E3AA001D5CD3 /* Dynatrace.framework in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
@@ -481,6 +528,7 @@
 		13B07FAE1A68108700A75B9A /* dynatest */ = {
 			isa = PBXGroup;
 			children = (
+				75DA2ED52193E3AA001D5CD3 /* Dynatrace.framework */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -518,6 +566,15 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75DA2F0F2193E7BC001D5CD3 /* WebKit.framework */,
+				75DA2F0D2193E7B1001D5CD3 /* MessageUI.framework */,
+				75DA2F0B2193E79C001D5CD3 /* libc++.1.dylib */,
+				75DA2F092193E77A001D5CD3 /* libz.1.dylib */,
+				75DA2F072193E752001D5CD3 /* SystemConfiguration.framework */,
+				75DA2F052193E740001D5CD3 /* Security.framework */,
+				75DA2F032193E735001D5CD3 /* CoreTelephony.framework */,
+				75DA2F012193E717001D5CD3 /* CoreLocation.framework */,
+				75DA2EFF2193E6FD001D5CD3 /* libsqlite3.dylib */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 			);
 			name = Frameworks;
@@ -632,6 +689,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				75DA2EFE2193E3B7001D5CD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1208,6 +1266,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = dynatest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1217,6 +1279,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = dynatest;
+				STRIP_STYLE = debugging;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1226,6 +1289,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = dynatest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1235,6 +1302,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = dynatest;
+				STRIP_STYLE = debugging;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
