@@ -148,3 +148,13 @@ task copyDownloadableDepsToLibs(type: Copy) {
     from configurations.compile
     into 'libs'
 }
+
+apply plugin: 'com.dynatrace.tools.android'
+dynatrace {
+    defaultConfig {
+        applicationId 'db382531-39a3-4124-a360-56fa47da879d'
+        environmentId 'bf36168lga'
+        cluster 'https://bf.dynatrace.com'
+    }
+}
+
